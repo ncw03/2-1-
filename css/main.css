@@ -1,70 +1,49 @@
 a {
     text-decoration: none;  /*하이퍼링크에 생기는 밑줄을 없애준다.*/
-}
-
-
-.background1 {
+  }
+  
+  .background1 {
     position: relative;
     width: 100vw;
     height: 1443px;
-    background-color: linear-gradient(to right, #4C4CE6, #FF00CC);
+    background: linear-gradient(to right, #4C4CE6, #FF00CC);
     overflow: hidden;
-}
-
-.background1 .rectangle1 {
+  }
+  
+  .background1 .rectangle1 {
     position: absolute;
     width: 103vw;
     height: 36vh;
-    left: -8vw;
     top: 34vh;
-    background-color: linear-gradient(to right, #2C05F0, #B200FF);
+    left: -8vw;
+    background: linear-gradient(to right, #2C05F0, #B200FF);
     transform: rotate(-10deg);
-    box-shadow: -8px 28px 19px rgba(0,0,0,21%);
-}
-
-.background1 .rectangle2 {
+    box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
+  }
+  
+  .background1 .rectangle2 {
     position: absolute;
     width: 103vw;
     height: 36vh;
     top: 42vh;
     left: 20vw;
-    background: linear-gradient(to right,#5312E8,#B200FF);
+    background: linear-gradient(to right, #5312E8, #B200FF);
     transform: rotate(50deg);
-    box-shadow: -8px 28px 19px rgba(0,0,0,21%);    
-}
-
-.background1 .back-rec1 {
+    box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
+  }
+  
+  .background1 .text-rec {
     position: absolute;
-    background-color: transparent;
-    width: 28vw;   
-    height: 50vh;
-    border: 16px solid rgba(255, 255,255,21%);
-    left: -5vw;
-    top: 68vh;
-}
-
-.background1 .back-rec2 {
-    position: absolute;
-    background-color: transparent;
-    width: 37vw;   
-    height: 64vh;
-    border: 16px solid rgba(255, 255,255,21%);
-    left: 80vw;
-    top: 7vh;
-}
-
-.background1 .text-rec {
-    position: absolute;
-    background-color: transparent;
+    background: transparent;
     width: 276px;
     height: 327px;
-    margin: 37.6vh auto;   /*아래 두줄처럼 좌우를 0px씩하고 margin을 auto로 하면 가운데 정렬이 된다. */
+    margin: 37.6vh auto; /*아래 두줄처럼 좌우를 0px씩하고 margin을 auto로 하면 가운데 정렬이 된다. */
     left: 0px;
     right: 0px;
-    border: 18px solid #FFFFFF;
-}
-
-.background1 .text-rec .text {
+    border: 18px solid #FFFCFC;
+  }
+  
+  .background1 .text-rec .text {
     position: absolute;
     text-align: center;
     top: 27.5px;
@@ -73,42 +52,66 @@ a {
     font-size: 116px;
     font-weight: 700;
     line-height: 1.18;
-    font-family: "Segoe UI" "sans-serif";
-}
-
-.header {
+    font-family: "Segoe Ui", "sans-serif";
+  }
+  
+  .background1 .back-rec1 {
+    position: absolute;
+    background: transparent;
+    width: 28vw;
+    height: 50vh;
+    border: 16px solid rgba(255,255,255,21%);
+    left: -5vw;
+    top: 68vh;
+    transform: rotate(25deg);
+  }
+  
+  .background1 .back-rec2 {
+    position: absolute;
+    background: transparent;
+    width: 37vw;
+    height: 65vh;
+    border: 16px solid rgba(255,255,255,21%);
+    left: 80vw;
+    top: 7vh;
+    transform: rotate(25deg);
+  }
+  
+  .header {
     z-index: 2;
     width: 1290px;
     height: 107px;
     position: fixed;
     margin: 34px auto;
+    top: 0px;
     left: 0px;
     right: 0px;
-    background-color: transparent;
-}
-
-.h3 {
+    background: transparent;
+  }
+  
+  h3 {
     color: #FFFCFC;
     position: absolute;
     font-size: 30px;
     font-weight: 500;
     left: 57px;
     top: 35px;
-    bottom: 35px;    
-}
-
-.header .menu {
+    bottom: 35px;
+  }
+  
+  .header .menu {
     display: flex;
-    justify-content: flex-end;    
-}
-
-.header .menu .nav-item {
+    justify-content: flex-end;
+  }
+  
+  .header .menu .nav-item {
     font-size: 18px;
-    display: block;  /*글자 요소가 블록요소로 바뀌어 여백을 임의로 줄수 있다.*/
+    display: block;
     padding: 43px 10px;
     color: #FFFCFC;
-}
-
-.header .menu .nav-item a {
+  }
+  
+  .header .menu .nav-item a {
     color: #FFFCFC;
-}
+  }
+  
