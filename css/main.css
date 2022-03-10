@@ -2,6 +2,7 @@ a {
     text-decoration: none; /*하이퍼링크에 생기는 밑줄을 없애준다.*/
 }
 
+
 .background1 {
     position: relative;
     width: 100vw;
@@ -31,6 +32,7 @@ a {
     transform: rotate(50deg);
     box-shadow: -8px 28px 19px rgba(0,0,0,21%);    
 }
+
 .background1 .back-rec1 {
     position: absolute;
     background-color: transparent;
@@ -88,6 +90,7 @@ a {
 .h3 {
     color: #FFFCFC;
     position: absolute;
+    font-size: 30px;
     font-weight: 500;
     left: 57px;
     top: 35px;
