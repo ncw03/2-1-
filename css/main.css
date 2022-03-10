@@ -1,5 +1,5 @@
 a {
-    text-decoration: none; /*하이퍼링크에 생기는 밑줄을 없애준다.*/
+    text-decoration: none;
 }
 
 
@@ -58,7 +58,7 @@ a {
     background-color: transparent;
     width: 276px;
     height: 327px;
-    margin: 37.6vh auto;  /* 가운데 정렬을 할때 아래 두줄처럼 좌우를 0px씩하고 윗줄처럼 margin을 auto로 하면 된다. */
+    margin: 37.6vh auto;
     left: 0px;
     right: 0px;
     border: 18px solid #FFFFFF;
@@ -104,7 +104,7 @@ a {
 
 .header .menu .nav-item {
     font-size: 18px;
-    display: block; /*글자 요소가 블록요소로 바뀌어 여백을 임의로 줄수 있다.*/
+    display: block;
     padding: 43px 10px;
     color: #FFFCFC;
 }
