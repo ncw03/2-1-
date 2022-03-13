@@ -450,3 +450,88 @@ h3 {
   width: 550px;
   height: auto; /*높이를 따로 지정하지 않고 가져온 크기 그대로 사용*/
 }
+
+.background4 {
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 1443px;
+  background-color: #FFFCFC;
+  overflow: hidden; /*모든 background에는 넘침방지를 습관적으로 걸어주는게 좋다.*/
+}
+
+.background4 .app {
+  position: absolute;
+  left: 27%;
+  top: 21%;
+  width: 550px;
+  height: auto;
+}
+
+.background4 .M {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 200;
+  left: 48%;
+  top: 30%;
+  color: #000;
+}
+
+.background4 .T {
+  position: absolute;
+  font-size: 30px;
+  font-weight: 200;
+  left: 48%;
+  top: 42%;
+  color: #8F8F8F;
+}
+
+.background4 .graphback1 {
+  position: absolute;
+  width: 22%;
+  height: 45px;
+  background-color: #E8E8E8;
+  left: 48%;
+  top: 56%;
+  border-radius: 50px;
+}
+
+.background4 .graphfront1 {
+  position: absolute; /* graghfront1의 부모요소는 graphback1이다. */
+  width: 85%;
+  height: 45px;
+  background-color: #FF00CC;
+  border-radius: 50px;
+}
+
+.background4 .graphfront1 span {
+  position: absolute;
+  left: 40%;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.background4 .graphback2 {
+  position: absolute;
+  width: 22%;
+  height: 45px;
+  background-color: #E8E8E8;
+  left: 48%;
+  top: 61%;
+  border-radius: 50px;
+}
+
+.background4 .graphfront2 {
+  position: absolute;
+  width: 90%;
+  height: 45px;
+  background-color: #9C43FF;
+  border-radius: 50px;
+}
+
+.background4 .graphfront2 span {
+  position: absolute;
+  left: 38%;
+  font-size: 30px;
+  font-weight: 300;
+}
